@@ -1,3 +1,5 @@
+# Using Dependabot in Azure with a private repository
+
 Regular dependency updates are important for security, quality and compatibility of applications over time. Using Dependabot is one way to keep the packages you use updated to the latest versions.
 You can either use the dependabot-script or dependabot-azure-devops in Azure to configure it for your repository.
 
