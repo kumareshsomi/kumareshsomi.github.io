@@ -1,7 +1,7 @@
 Regular dependency updates are important for security, quality and compatibility of applications over time. Using Dependabot is one way to keep the packages you use updated to the latest versions.
 You can either use the dependabot-script or dependabot-azure-devops in Azure to configure it for your repository.
 
-We are going to look at an example using the  dependabot extension for Azure DevOps. You enable version updates by checking a dependabot.yml configuration file in to your repository's .github directory. Dependabot then raises pull requests to keep the dependencies you configure up-to-date. You can find the official spec here (https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file).
+Let us look at an example using the dependabot extension for Azure DevOps. You enable version updates by checking a dependabot.yml configuration file in to your repository's .github directory. Dependabot then raises pull requests to keep the dependencies you configure up-to-date. You can go through the [official spec](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file) for all the configuration options.
 
 A simple configuration in /.github/dependabot.yml for a maven project would be for example:
 ~~~
@@ -15,7 +15,7 @@ updates:
   open-pull-requests-limit: 10
 ~~~
 
-You need a way to trigger dependabot. You can do that in an Azure pipeline using the dependabot task (https://marketplace.visualstudio.com/items?itemName=tingle-software.dependabot). In our simple example, that would be:
+You need a way to trigger dependabot. You can do that in an Azure pipeline using the [dependabot task](https://marketplace.visualstudio.com/items?itemName=tingle-software.dependabot). In our simple example, that would be:
 ~~~
 trigger: none
 
