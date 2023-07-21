@@ -62,7 +62,7 @@ exit
 ~~~
 
 Now you can connect from your MAC host via sqldeveloper wtih <user name> user, connection type basic, role default, hostnme localhost and service name XEPDB1 (not SID).
-You can install sqldevelper for Apple Silicon using `Mac ARM64 with JDK 11 included` [distro](https://www.oracle.com/database/sqldeveloper/technologies/download).
+You can install sqldevelper for Apple Silicon using [Mac ARM64 with JDK 11 included](https://www.oracle.com/database/sqldeveloper/technologies/download/) .
 
 To stop the oracle DB container and start it again later on:
 
