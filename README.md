@@ -6,3 +6,5 @@ Read my pages on:
 
 
 2. [Install Oracle Database on Apple Silicon](pages/oracle-db-on-apple-silicon)
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=kumaresh.github.io)
