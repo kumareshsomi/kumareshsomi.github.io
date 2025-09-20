@@ -1,3 +1,5 @@
+<small>Published on: 14 July 2023</small>
+
 # Using Dependabot in Azure with a private repository
 
 Regular dependency updates are important for security, quality and compatibility of applications over time. Using Dependabot is one way to keep the packages you use updated to the latest versions.
