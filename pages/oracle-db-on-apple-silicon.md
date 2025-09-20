@@ -1,3 +1,5 @@
+<small>Published on: 21 July 2023</small>
+
 # Install Oracle Database on Apple Silicon
 
 Oracle database is available only for x86_64 architecture. If you have Apple MAC with Apple Silicon (M1/M2..), that uses ARM64 architecture and therefore is not compatible with Oracle database.
