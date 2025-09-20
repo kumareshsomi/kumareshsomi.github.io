@@ -71,3 +71,5 @@ updates:
 ~~~
 
 With this, we are all set for the authentication to succeed. Dependabot shall fetch all the updates for libraries using your private repository and trigger pull requests if there are updates till it reaches the configured pull request limit.
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=kumaresh.github.io.using-dependabot-in-azure-with-private-repository)

@@ -77,3 +77,5 @@ docker start <container id>
 ~~~
 
 This is one way to get Oracle DB running if you ever need it locally on your new MAC. Nowadays, you could also consider using [testcontainers desktop app](https://testcontainers.com/desktop/) to locally run your tests using Oracle DB.
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=kumaresh.github.io.oracle-db-on-apple-silicon)
